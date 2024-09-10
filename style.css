@@ -9,9 +9,9 @@
 body{
     width: 100vw;
     min-height: 100vh;
-    background: #d9a7c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #d9a7c7;  
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); 
 
     display: flex;
     justify-content: center;
@@ -55,7 +55,6 @@ body{
 
 input{
     flex: 1;
-    /* width: 80%; */
     border: none;
     outline: none;
     background-color: transparent;
@@ -63,8 +62,6 @@ input{
 }
 
 button{
-    /* width: 20%; */
-    /* text-align: center; */
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -78,7 +75,6 @@ button{
 
 
 ul li{
-    /* background-color: #d9a7c7; */
     list-style: none;
     font-size: 17px;
     padding: 12px 8px 12px 50px;
